@@ -2,5 +2,6 @@ require('rspec')
 require('scrabble_score')
 
 
-describe('word#scrabble_score')do
-it()do
+it("returns a scrabble score for a letter") do
+  expect("a".scrabble_score()).to(eq(1))
+end
