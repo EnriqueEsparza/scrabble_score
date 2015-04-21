@@ -1,0 +1,1 @@
+1. scrabble score based on user input string
